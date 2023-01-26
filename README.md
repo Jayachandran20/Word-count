@@ -23,18 +23,21 @@ The four function is used to take each line from the main file.
 ## PROGRAM:
 ```
 #Developed by: M.Jayachandran
-#Reference no: 22008847
-with open('file.txt','r') as f1:
-    with open('file2.txt','a') as f2:
-        for line in f1:
-            f2.write(line)
+#Reference No: 22008847
+fname=input("Enter file name: ")
+num_words=0
+with open(fname,'r') as f:
+    for line in f:
+        words=line.split()
+        num_words+=len(words)
+print("Number of words: ",num_words)
 ```
             
  ### OUTPUT:
 ![hi](https://user-images.githubusercontent.com/118447015/214826639-857e13db-86af-42f8-8c67-0929fcce1f15.jpg)
 
 
-![hello](https://user-images.githubusercontent.com/118447015/214826777-933e522f-e65d-48ae-846b-09da8882402d.jpg)
+![wc](https://user-images.githubusercontent.com/118447015/214829644-98de8ff5-aa3d-478d-a635-ab2a02dc0c9f.jpg)
 
 
 
