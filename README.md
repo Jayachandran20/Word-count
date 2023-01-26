@@ -5,20 +5,23 @@ To write a python program for getting the word count from a text.
 PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
-### Step 1:
-First we need to open the required file form which we need to copy the text.
+## Step 1:
+Open terminal and activate conda, then open jupyter notebook.
 
-Again using the with keyword to open the empty file.
-### Step 2: 
- Using keyword "with" to open the requied file.
-### Step 3: 
-Again using the with keyword to open the empty file.
-### Step 4:  
-The empty file is open by using 'W' which is used to write only.
-### Step 5: 
-The four function is used to take each line from the main file.
-### Step 6: 
-The four function is used to take each line from the main file.
+## Step 2:
+Create a text file in jupyter notebook or upload a text file in the jupyter notebook.
+
+## Step 3:
+Open a new cell in jupyter notebook.
+
+## Step 4:
+Type the program in the cell.
+
+## Step 5:
+Now in the output box,type the file name.
+
+## Step 6:
+End the program.
 
 ## PROGRAM:
 ```
