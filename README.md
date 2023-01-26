@@ -21,12 +21,14 @@ The four function is used to take each line from the main file.
 The four function is used to take each line from the main file.
 
 ## PROGRAM:
+```
 #Developed by: M.Jayachandran
 #Reference no: 22008847
 with open('file.txt','r') as f1:
     with open('file2.txt','a') as f2:
         for line in f1:
             f2.write(line)
+```
             
  ### OUTPUT:
 ![hi](https://user-images.githubusercontent.com/118447015/214826639-857e13db-86af-42f8-8c67-0929fcce1f15.jpg)
